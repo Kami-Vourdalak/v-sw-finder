@@ -3,7 +3,7 @@ import { RouterView } from "vue-router";
 </script>
 
 <template>
-  v-sw-finder
+  <div class="text-3xl">v-sw-finder</div>
   <RouterView />
 </template>
 
