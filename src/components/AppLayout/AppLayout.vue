@@ -3,7 +3,9 @@
     <div class="flex justify-center items-center h-24 pl-4">
       <h1 class="text-3xl font-bold">Star Wars Finder</h1>
     </div>
-    <slot />
+    <div class="pl-4 pt-4">
+      <slot />
+    </div>
   </div>
 </template>
 <script lang="ts">
